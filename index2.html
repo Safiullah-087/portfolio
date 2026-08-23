@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safi Ullah | Full Stack Developer</title>
+    <meta name="description"
+        content="Safi Ullah - Full Stack Developer Portfolio. Building responsive, high-performance, and scalable web applications using modern web technologies.">
+    <meta name="keywords" content="Safi Ullah, Full Stack Developer, Web Developer, PHP Developer, React, Portfolio">
+    <meta property="og:title" content="Safi Ullah | Full Stack Developer">
+    <meta property="og:description"
+        content="Professional portfolio of Safi Ullah, a Full Stack Developer building creative and scalable web applications.">
+    <meta property="og:image" content="assets/images/gym_management.png">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-45 -51 538 614'><path fill='%23ffffff' d='M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z'/></svg>">
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <button id="theme-toggle" class="theme-toggle-btn" data-title="Toggle Theme" aria-label="Toggle Theme"><i
+                class="fas fa-moon"></i></button>
+        <a href="#home" class="active" data-title="Home"><i class="fas fa-home"></i></a>
+        <a href="#about" data-title="About"><i class="fas fa-user"></i></a>
+        <a href="#experience" data-title="Experience"><i class="fas fa-history"></i></a>
+        <a href="#skills" data-title="Skills"><i class="fas fa-code"></i></a>
+        <a href="#services" data-title="Services"><i class="fas fa-cogs"></i></a>
+        <a href="#portfolio" data-title="Projects"><i class="fas fa-briefcase"></i></a>
+        <a href="#contact" data-title="Contact"><i class="fas fa-envelope"></i></a>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-content reveal-left">
+            <h3>Welcome to my World</h3>
+            <h1>Hi, I'm <span class="text-pink">Safi Ullah</span></h1>
+            <h3><span class="typing-text"></span></h3>
+            <p>A passionate Web Developer specializing in building clean user interfaces, robust database backends, and
+                intuitive digital experiences.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/safi-ullah-b80840318/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Safiullah-087" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100081828306832" target="_blank"
+                    aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.snapchat.com/add/sufimalik087" target="_blank" aria-label="Snapchat"><i
+                        class="fab fa-snapchat"></i></a>
+                <a href="https://www.instagram.com/unfav_safi_ullah_malik_/?hl=en" target="_blank"
+                    aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <a href="#contact" class="btn-main">Hire Me</a>
+        </div>
+        <div class="home-img reveal-right">
+            <div class="hero-svg-container">
+                <svg viewBox="0 0 500 500" class="hero-svg">
+                    <defs>
+                        <linearGradient id="gradient-pink" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="var(--main-pink)" />
+                            <stop offset="100%" stop-color="#ff75a0" />
+                        </linearGradient>
+                        <linearGradient id="gradient-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="var(--main-cyan)" />
+                            <stop offset="100%" stop-color="#6effff" />
+                        </linearGradient>
+                        <filter id="glow-effect" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="12" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                    </defs>
+                    <circle cx="250" cy="250" r="110" fill="url(#gradient-pink)" opacity="0.12"
+                        filter="url(#glow-effect)" />
+                    <circle cx="340" cy="190" r="70" fill="url(#gradient-cyan)" opacity="0.08"
+                        filter="url(#glow-effect)" />
+                    <circle cx="250" cy="250" r="160" fill="none" stroke="var(--card-border)" stroke-width="1.5"
+                        stroke-dasharray="25 12 8 12" class="svg-spin" />
+                    <circle cx="250" cy="250" r="190" fill="none" stroke="var(--card-border)" stroke-width="1"
+                        stroke-dasharray="12 25" class="svg-spin-reverse" />
+                    <rect x="85" y="110" width="330" height="240" rx="16" fill="var(--card-bg)"
+                        stroke="var(--card-border)" stroke-width="2" style="backdrop-filter: blur(10px);" />
+                    <circle cx="115" cy="132" r="5" fill="#ff5f56" />
+                    <circle cx="131" cy="132" r="5" fill="#ffbd2e" />
+                    <circle cx="147" cy="132" r="5" fill="#27c93f" />
+                    <rect x="115" y="165" width="90" height="6" rx="3" fill="var(--main-pink)" opacity="0.85" />
+                    <rect x="115" y="188" width="200" height="6" rx="3" fill="var(--text-muted)" opacity="0.5" />
+                    <rect x="135" y="211" width="160" height="6" rx="3" fill="var(--main-cyan)" opacity="0.85" />
+                    <rect x="135" y="234" width="110" height="6" rx="3" fill="var(--text-muted)" opacity="0.5" />
+                    <rect x="135" y="257" width="220" height="6" rx="3" fill="var(--main-pink)" opacity="0.85" />
+                    <rect x="115" y="280" width="70" height="6" rx="3" fill="var(--main-cyan)" opacity="0.85" />
+                    <g class="svg-float">
+                        <path d="M 195 190 L 170 215 L 195 240" fill="none" stroke="url(#gradient-cyan)"
+                            stroke-width="6" stroke-linecap="round" stroke-linejoin="round"
+                            filter="url(#glow-effect)" />
+                        <path d="M 230 180 L 215 250" fill="none" stroke="url(#gradient-pink)" stroke-width="6"
+                            stroke-linecap="round" filter="url(#glow-effect)" />
+                        <path d="M 245 190 L 270 215 L 245 240" fill="none" stroke="url(#gradient-cyan)"
+                            stroke-width="6" stroke-linecap="round" stroke-linejoin="round"
+                            filter="url(#glow-effect)" />
+                    </g>
+                    <g class="svg-pulse">
+                        <path
+                            d="M 360 280 C 360 273 385 273 385 273 C 385 273 410 273 410 280 L 410 305 C 410 312 385 312 385 312 C 385 312 360 312 360 305 Z"
+                            fill="rgba(0, 240, 255, 0.1)" stroke="var(--main-cyan)" stroke-width="1.5" />
+                        <path d="M 360 280 C 360 287 385 287 385 287 C 385 287 410 287 410 280" fill="none"
+                            stroke="var(--main-cyan)" stroke-width="1.5" />
+                        <path d="M 360 292 C 360 299 385 299 385 299 C 385 299 410 299 410 292" fill="none"
+                            stroke="var(--main-cyan)" stroke-width="1.5" />
+                        <circle cx="100" cy="300" r="12" fill="rgba(255, 42, 117, 0.1)" stroke="var(--main-pink)"
+                            stroke-width="1.5" />
+                        <circle cx="100" cy="300" r="5" fill="none" stroke="var(--main-pink)" stroke-width="1.5" />
+                        <path d="M 100 282 L 100 285 M 100 315 L 100 318 M 82 300 L 85 300 M 115 300 L 118 300"
+                            stroke="var(--main-pink)" stroke-width="2.5" stroke-linecap="round" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="profile-card reveal-left">
+                <div class="card-header-img"></div>
+                <div class="profile-img-box">
+                    <img src="assets/img2.jpg" alt="safiullah" class="profile-img">
+                    <div class="profile-glass-overlay"></div>
+                    <span class="status-badge" title="Available for Hire"></span>
+                </div>
+                <h3>Safi Ullah</h3>
+                <span>( WEB DEVELOPER )</span>
+
+                <div class="info-list">
+                    <p><i class="fas fa-map-marker-alt"></i>Pak-Austria Fachhochschule Institute of Applied Sciences and
+                        Technology Haripur, Pakistan</p>
+                    <p><i class="fas fa-envelope"></i>safiullahmalik087@gmail.com</p>
+                </div>
+                <a href="https://safiullah-087.netlify.app/" target="_blank" class="card-btn">Live Demo</a>
+            </div>
+
+            <div class="about-text reveal-right">
+                <h2 class="heading-title">About Me</h2>
+                <p>As a driven Computer Science professional, I am passionate about technology, web development, and
+                    continuous self-improvement. I have experience designing complete applications from concept to
+                    deployment, combining analytical thinking with practical execution. I am highly adaptable,
+                    goal-oriented, and eager to use my diverse technical skills to make a significant impact in a
+                    dynamic development environment.</p>
+
+                <h3 class="education-title">Education</h3>
+                <div class="education-card">
+                    <p class="education-meta">
+                        <strong class="education-subject">BS Computer Science</strong><br>
+                        Pak-Austria Fachhochschule Institute of Applied Sciences and Technology<br>
+                        7th Semester Student
+                    </p>
+                </div>
+
+                <div class="btn-group">
+                    <a href="assets/Resume .pdf" download="Safi Ullah_CV.pdf" target="_blank"
+                        class="btn-pink"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="heading-title">My Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2026 – Present</div>
+                <div class="timeline-content">
+                    <h3>SMC Tech Solutions</h3>
+                    <p style="color: var(--main-cyan); font-weight: 600; font-size: 0.9rem; margin-bottom: 8px;">On-site
+                        · Internee
+                    </p>
+                    <p>Built multiple web projects using HTML, CSS, JavaScript, React JS, Node JS, PHP and MySQL.
+                        Developed responsive UIs and managed version control via Git and GitHub.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">July 2025 - August 2025</div>
+                <div class="timeline-content">
+                    <h3> M-tech Production</h3>
+                    <p style="color: var(--main-pink); font-weight: 600; font-size: 0.9rem; margin-bottom: 8px;">Remote
+                        · Internee</p>
+                    <p>Provided remote, break down of language barriers in PHP and MySQL.
+                        Developed
+                        responsive UIs and managed version control via Git and GitHub.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">July 2024 - September 2024</div>
+                <div class="timeline-content">
+                    <h3> Ranking Grow</h3>
+                    <p style="color: var(--main-pink); font-weight: 600; font-size: 0.9rem; margin-bottom: 8px;">On-site
+                        · Internee</p>
+                    <p>Built multiple web projects using HTML, CSS, JavaScript. Developed
+                        responsive UIs and managed version control via Git and GitHub. </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="heading-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box reveal">
+                <h3>Languages & Frontend</h3>
+                <div class="skill-bar"><span>HTML5 & CSS3</span>
+                    <div class="bar">
+                        <div class="progress" style="width:95%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar"><span>JavaScript</span>
+                    <div class="bar">
+                        <div class="progress" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar"><span>React JS - Node JS</span>
+                    <div class="bar">
+                        <div class="progress" style="width:75%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box reveal">
+                <h3>Backend & Database</h3>
+                <div class="skill-bar"><span>PHP (Server-Side)</span>
+                    <div class="bar">
+                        <div class="progress" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar"><span>MySQL (Databases)</span>
+                    <div class="bar">
+                        <div class="progress" style="width:75%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box reveal">
+                <h3>Tools & Version Control</h3>
+                <div class="skill-bar"><span>Git & GitHub</span>
+                    <div class="bar">
+                        <div class="progress" style="width:85%"></div>
+                    </div>
+                </div>
+                <div class="skill-bar"><span>VS Code</span>
+                    <div class="bar">
+                        <div class="progress" style="width:90%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box reveal">
+                <h3>Soft Skills & Competencies</h3>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px;">
+                    <span
+                        style="background: rgba(255, 42, 117, 0.08); border: 1px solid rgba(255, 42, 117, 0.25); color: var(--main-pink); padding: 8px 14px; border-radius: 20px; font-weight: 500; font-size: 0.85rem; transition: 0.3s;"
+                        onmouseover="this.style.borderColor='var(--main-pink)'"
+                        onmouseout="this.style.borderColor='rgba(255, 42, 117, 0.25)'">Team Collaboration</span>
+                    <span
+                        style="background: rgba(0, 240, 255, 0.08); border: 1px solid rgba(0, 240, 255, 0.25); color: var(--main-cyan); padding: 8px 14px; border-radius: 20px; font-weight: 500; font-size: 0.85rem; transition: 0.3s;"
+                        onmouseover="this.style.borderColor='var(--main-cyan)'"
+                        onmouseout="this.style.borderColor='rgba(0, 240, 255, 0.25)'">Problem Solving</span>
+                    <span
+                        style="background: rgba(255, 42, 117, 0.08); border: 1px solid rgba(255, 42, 117, 0.25); color: var(--main-pink); padding: 8px 14px; border-radius: 20px; font-weight: 500; font-size: 0.85rem; transition: 0.3s;"
+                        onmouseover="this.style.borderColor='var(--main-pink)'"
+                        onmouseout="this.style.borderColor='rgba(255, 42, 117, 0.25)'">Leadership & Mentorship</span>
+                    <span
+                        style="background: rgba(0, 240, 255, 0.08); border: 1px solid rgba(0, 240, 255, 0.25); color: var(--main-cyan); padding: 8px 14px; border-radius: 20px; font-weight: 500; font-size: 0.85rem; transition: 0.3s;"
+                        onmouseover="this.style.borderColor='var(--main-cyan)'"
+                        onmouseout="this.style.borderColor='rgba(0, 240, 255, 0.25)'">Communication</span>
+                    <span
+                        style="background: rgba(255, 42, 117, 0.08); border: 1px solid rgba(255, 42, 117, 0.25); color: var(--main-pink); padding: 8px 14px; border-radius: 20px; font-weight: 500; font-size: 0.85rem; transition: 0.3s;"
+                        onmouseover="this.style.borderColor='var(--main-pink)'"
+                        onmouseout="this.style.borderColor='rgba(255, 42, 117, 0.25)'">Attention to Details</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="heading-title">What I Offer</h2>
+        <p class="heading-subtitle">Bringing ideas to life with creativity and innovation.</p>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <i class="fas fa-code"></i>
+                <h3>Front-End Dev</h3>
+                <p>Building fully interactive web applications.</p>
+            </div>
+            <div class="service-card reveal">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Designing fully responsive interfaces.</p>
+            </div>
+            <div class="service-card reveal">
+                <i class="fas fa-video"></i>
+                <h3>Content Creation</h3>
+                <p>Cinematic videography and engaging content.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="heading-title">My Projects</h2>
+
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Responsive Web Design</button>
+            <button class="filter-btn" data-filter="app">React App's</button>
+        </div>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box web reveal">
+                <img src="assets/nexcent.png" alt="nexcent">
+                <div class="portfolio-layer">
+                    <h4>Nexcent Responsive Design</h4>
+                    <p>HTML5, CSS3, JS,</p>
+                    <span
+                        style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px; padding: 0 15px; line-height: 1.5;">Developed nexcent responsive design with modern CSS techniques. Mobile, Tablet, Desktop</span>
+                    <a href="https://github.com/Safiullah-087/nexcent" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box web reveal">
+                <img src="assets/me.png" alt="Interactive Portfolio Website">
+                <div class="portfolio-layer">
+                    <h4>Interactive Portfolio</h4>
+                    <p>HTML5, CSS3, JS, Animation·js</p>
+                    <span
+                        style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px; padding: 0 15px; line-height: 1.5;">Built dynamic portfolio utilizing modern ScrollTrigger and web animation transitions.</span>
+                    <a href="https://ibrahim-alemi.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box app reveal">
+                <img src="assets/weather app.png" alt="weather app">
+                <div class="portfolio-layer">
+                    <h4>Weatherly Web App</h4>
+                    <p>HTML5, CSS3, React·js</p>
+                    <span
+                        style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 20px; padding: 0 15px; line-height: 1.5;">Completed
+                        a weather application with real-time data integration, weather APIs using React·js.</span>
+                    <a href="https://github.com/Safiullah-087/weatherly-app" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="heading-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form class='contact-form reveal-left' id='contactForm' method='post' name='contact'><input type='hidden'
+                    name='form-name' value='contact' />
+                <div class="input-group">
+                    <label>Your Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label>Your Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label>Your Message</label>
+                    <textarea name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+                <p id="form-msg" style="margin-top:10px; text-align:center;"></p>
+            </form>
+
+            <div class="contact-info reveal-right">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                    <div class="info-details">
+                        <h4>Email</h4><span>safiullahmalik087@gmail.com</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="info-details">
+                        <h4>Phone</h4><span>+92 319 3365470</span>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="info-details">
+                        <h4>Location</h4><span>Haripur, Pakistan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Safi Ullah | All Rights Reserved.</p>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/safi-ullah-b80840318/" target="_blank" aria-label="LinkedIn"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Safiullah-087" target="_blank" aria-label="GitHub"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100081828306832" target="_blank" aria-label="Facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://www.snapchat.com/add/sufimalik087" target="_blank" aria-label="Snapchat"><i
+                    class="fab fa-snapchat"></i></a>
+            <a href="https://www.instagram.com/unfav_safi_ullah_malik_/?hl=en" target="_blank" aria-label="Instagram"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Back to Top"><i class="fas fa-angle-double-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
