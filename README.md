@@ -1,5 +1,4 @@
 Created my own portfolio website using Animations with js <br>
 Responsive for all devices <br> <br>
 
-<img width="1292" height="591" alt="image" src="https://github.com/user-attachments/assets/e14ba934-1a6d-4380-b3dc-e4c0c6f1c5a7" />
-
+<img width="1240" height="4983" alt="image" src="https://github.com/user-attachments/assets/934006da-7396-449d-b226-8d90dd86817b" />
